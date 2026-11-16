@@ -1,0 +1,52 @@
+{
+ "fecha": "2026-11-09",
+ "dia_n": 38,
+ "estado": "Hay algo para revisar",
+ "hora": "2026-11-09 19:10",
+ "tendencia": 89.109,
+ "mantener": 84.1655,
+ "faltan_dias": 0,
+ "ajustes": 3,
+ "secciones": [
+  [
+   "Qué pasó hoy",
+   [
+    "Tendencia (la estrategia): sin cambios (la diferencia con su objetivo no alcanza el 10%).",
+    "Mantener BTC+ETH (para comparar): sin cambios (la diferencia con su objetivo no alcanza el 10%).",
+    "BTC: $75.368,41 al cierre del 9 nov 2026 (+0,7% en el día), -40,3% bajo su máximo histórico ($126.199,63, 6 oct 2025). Señales al alza: 3 de 8 → la estrategia quiere 18,8% del libro en BTC.",
+    "ETH: $2.135,24 al cierre del 9 nov 2026 (+0,4% en el día), -56,9% bajo su máximo histórico ($4.956,78, 24 ago 2025). Señales al alza: 1 de 8 → la estrategia quiere 6,2% del libro en ETH."
+   ]
+  ],
+  [
+   "Cómo vamos",
+   [
+    "Tendencia (la estrategia): $89,11 (-10,9% desde el inicio, -0,8% desde la revisión anterior). Posición: BTC 19,4% · ETH 12,2% · efectivo 68,4%.",
+    "Mantener BTC+ETH (para comparar): $84,17 (-15,8% desde el inicio, -2,7% desde la revisión anterior). Posición: BTC 51,9% · ETH 47,1% · efectivo 1,0%.",
+    "La estrategia va $4,94 por encima de mantener quieto."
+   ]
+  ],
+  [
+   "¿Va como esperábamos?",
+   [
+    "Diferencia con la simulación (mismas reglas, precios de cierre): -0,71 puntos (aceptable hasta ±1,5). Ajustes: práctica 3, simulación 3.",
+    "En la historia, en periodos de 31 día(s) la estrategia quedó entre -8,6% y +24,1% en 8 de cada 10 casos (mediana -0,5%). Ahora va -10,9%: fuera de lo habitual, sin ser imposible.",
+    "Caída desde su máximo en la práctica: -12,1%. La peor caída de la historia fue -45,4%."
+   ]
+  ],
+  [
+   "¿El bot está funcionando?",
+   [
+    "Última revisión: 2026-11-09 19:10 (hora de Colombia). Al día con el último cierre.",
+    "Revisiones a tiempo: 24 de 30. Días sin revisión: 8.",
+    "Errores en los últimos 7 días: 0.",
+    "Datos: sin problemas."
+   ]
+  ],
+  [
+   "Importante",
+   [
+    "Hubo 1 día(s) sin revisión antes de hoy (PC apagado o error)."
+   ]
+  ]
+ ]
+}

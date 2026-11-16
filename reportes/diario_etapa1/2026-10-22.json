@@ -1,0 +1,52 @@
+{
+ "fecha": "2026-10-22",
+ "dia_n": 20,
+ "estado": "Todo en orden",
+ "hora": "2026-10-22 19:21",
+ "tendencia": 93.1297,
+ "mantener": 92.2448,
+ "faltan_dias": 9,
+ "ajustes": 2,
+ "secciones": [
+  [
+   "Qué pasó hoy",
+   [
+    "Tendencia (la estrategia): vendió 0,00015 BTC a $81.237,24 ($12,19); vendió 0,0023 ETH a $2.388,24 ($5,49).",
+    "Mantener BTC+ETH (para comparar): sin cambios (la diferencia con su objetivo no alcanza el 10%).",
+    "BTC: $81.416,09 al cierre del 22 oct 2026 (-3,2% en el día), -35,5% bajo su máximo histórico ($126.199,63, 6 oct 2025). Señales al alza: 5 de 8 → la estrategia quiere 31,2% del libro en BTC.",
+    "ETH: $2.389,14 al cierre del 22 oct 2026 (-3,4% en el día), -51,8% bajo su máximo histórico ($4.956,78, 24 ago 2025). Señales al alza: 4 de 8 → la estrategia quiere 25,0% del libro en ETH."
+   ]
+  ],
+  [
+   "Cómo vamos",
+   [
+    "Tendencia (la estrategia): $93,13 (-6,9% desde el inicio, -2,8% desde la revisión anterior). Posición: BTC 31,4% · ETH 25,1% · efectivo 43,6%.",
+    "Mantener BTC+ETH (para comparar): $92,24 (-7,8% desde el inicio, -3,7% desde la revisión anterior). Posición: BTC 51,0% · ETH 48,1% · efectivo 0,9%.",
+    "La estrategia va $0,88 por encima de mantener quieto."
+   ]
+  ],
+  [
+   "¿Va como esperábamos?",
+   [
+    "Diferencia con la simulación (mismas reglas, precios de cierre): -0,73 puntos (aceptable hasta ±1,5). Ajustes: práctica 2, simulación 2.",
+    "En la historia, en periodos de 17 día(s) la estrategia quedó entre -6,5% y +15,3% en 8 de cada 10 casos (mediana -0,1%). Ahora va -6,9%: fuera de lo habitual, sin ser imposible.",
+    "Caída desde su máximo en la práctica: -8,1%. La peor caída de la historia fue -45,4%."
+   ]
+  ],
+  [
+   "¿El bot está funcionando?",
+   [
+    "Última revisión: 2026-10-22 19:21 (hora de Colombia). Al día con el último cierre.",
+    "Revisiones a tiempo: 16 de 16. Días sin revisión: 4.",
+    "Errores en los últimos 7 días: 0.",
+    "Datos: sin problemas."
+   ]
+  ],
+  [
+   "Importante",
+   [
+    "Nada fuera de lo normal hoy."
+   ]
+  ]
+ ]
+}

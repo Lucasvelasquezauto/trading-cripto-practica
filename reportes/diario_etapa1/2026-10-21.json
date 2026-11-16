@@ -1,0 +1,52 @@
+{
+ "fecha": "2026-10-21",
+ "dia_n": 19,
+ "estado": "Todo en orden",
+ "hora": "2026-10-21 19:10",
+ "tendencia": 95.8315,
+ "mantener": 95.7464,
+ "faltan_dias": 10,
+ "ajustes": 1,
+ "secciones": [
+  [
+   "Qué pasó hoy",
+   [
+    "Tendencia (la estrategia): sin cambios (la diferencia con su objetivo no alcanza el 10%).",
+    "Mantener BTC+ETH (para comparar): sin cambios (la diferencia con su objetivo no alcanza el 10%).",
+    "BTC: $84.093,42 al cierre del 21 oct 2026 (+1,3% en el día), -33,4% bajo su máximo histórico ($126.199,63, 6 oct 2025). Señales al alza: 6 de 8 → la estrategia quiere 37,5% del libro en BTC.",
+    "ETH: $2.473,76 al cierre del 21 oct 2026 (+1,0% en el día), -50,1% bajo su máximo histórico ($4.956,78, 24 ago 2025). Señales al alza: 4 de 8 → la estrategia quiere 25,0% del libro en ETH."
+   ]
+  ],
+  [
+   "Cómo vamos",
+   [
+    "Tendencia (la estrategia): $95,83 (-4,2% desde el inicio, +1,1% desde la revisión anterior). Posición: BTC 44,8% · ETH 31,3% · efectivo 23,9%.",
+    "Mantener BTC+ETH (para comparar): $95,75 (-4,3% desde el inicio, +1,4% desde la revisión anterior). Posición: BTC 51,0% · ETH 48,1% · efectivo 0,8%.",
+    "La estrategia va $0,09 por encima de mantener quieto."
+   ]
+  ],
+  [
+   "¿Va como esperábamos?",
+   [
+    "Diferencia con la simulación (mismas reglas, precios de cierre): -0,69 puntos (aceptable hasta ±1,5). Ajustes: práctica 1, simulación 1.",
+    "En la historia, en periodos de 16 día(s) la estrategia quedó entre -6,4% y +14,4% en 8 de cada 10 casos (mediana -0,1%). Ahora va -4,2%: dentro de lo normal.",
+    "Caída desde su máximo en la práctica: -5,5%. La peor caída de la historia fue -45,4%."
+   ]
+  ],
+  [
+   "¿El bot está funcionando?",
+   [
+    "Última revisión: 2026-10-21 19:10 (hora de Colombia). Al día con el último cierre.",
+    "Revisiones a tiempo: 15 de 15. Días sin revisión: 4.",
+    "Errores en los últimos 7 días: 0.",
+    "Datos: sin problemas."
+   ]
+  ],
+  [
+   "Importante",
+   [
+    "Nada fuera de lo normal hoy."
+   ]
+  ]
+ ]
+}

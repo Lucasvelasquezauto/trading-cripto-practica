@@ -1,0 +1,38 @@
+# Lista de lo que se publica: TODO está excluido salvo lo que el bot diario necesita para correr en GitHub.
+# (La carpeta del proyecto tiene además investigación, respaldos y el bot intradía: nada de eso se publica.)
+/*
+!/.gitignore
+!/.gitattributes
+!/.github/
+!/README.md
+!/actualizar_copia_local.bat
+!/informe.html
+
+# Código del bot diario y lo único que importa de herramientas/
+!/bot/
+!/herramientas/
+/herramientas/*
+!/herramientas/estudio.py
+
+# Datos que el bot lee y escribe
+!/datos/
+/datos/*
+!/datos/velas_spot_BTCUSDT_1d.csv
+!/datos/velas_spot_ETHUSDT_1d.csv
+!/datos/hl_velas_BTC_1d.csv
+!/datos/hl_velas_ETH_1d.csv
+!/datos/hl_financiacion_BTC.csv
+!/datos/hl_financiacion_ETH.csv
+!/datos/paper/
+!/datos/paper_etapa1/
+/datos/paper/salida.log
+
+# Informes diarios (etapa 2 y etapa 1 archivada)
+!/reportes/
+/reportes/*
+!/reportes/diario/
+!/reportes/diario_etapa1/
+
+__pycache__/
+*.pyc
+*.tmp

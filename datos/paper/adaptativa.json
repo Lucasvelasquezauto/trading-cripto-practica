@@ -1,0 +1,120 @@
+{
+ "creado": "2026-11-16T07:27:18.702225+00:00",
+ "version": "3A",
+ "parametros": {
+  "ruptura": 20,
+  "senales": 1,
+  "cierre": 10,
+  "atr": 2.5,
+  "tam": 0.15,
+  "f200": true,
+  "ffin": true
+ },
+ "primer_dia": "2026-11-15",
+ "ultimo_regla": "2026-11-15",
+ "ultimo_ideal": "2026-11-15",
+ "ultimo_paper": "2026-11-15",
+ "regla": {
+  "BTC": {
+   "abierto": true,
+   "eid": 13,
+   "entrada": "2026-11-12",
+   "precio_entrada": 71460.0,
+   "bajo": 64150.0,
+   "stop": 70960.95782954345,
+   "salida": null,
+   "motivo": null
+  },
+  "ETH": {
+   "abierto": true,
+   "eid": 13,
+   "entrada": "2026-11-12",
+   "precio_entrada": 2019.74,
+   "bajo": 1769.2,
+   "stop": 2040.4202998084966,
+   "salida": null,
+   "motivo": null
+  }
+ },
+ "libro": {
+  "usdt": 94.163296055,
+  "BTC": 8.991000000000001e-05,
+  "ETH": 0.0,
+  "ajustes": 0,
+  "inicial": true,
+  "cortos": {
+   "BTC": {
+    "cant": 0.00023,
+    "entrada": 64669.0,
+    "eid": 13,
+    "fecha": "2026-11-15",
+    "fin": 0.0,
+    "n_fin": 0,
+    "com": 0.007436935,
+    "fin_ms": 1794814038702,
+    "entrada_regla": "2026-11-12"
+   },
+   "ETH": {
+    "cant": 0.0082,
+    "entrada": 1816.1,
+    "eid": 13,
+    "fecha": "2026-11-15",
+    "fin": 0.0,
+    "n_fin": 0,
+    "com": 0.00744601,
+    "fin_ms": 1794814038702,
+    "entrada_regla": "2026-11-12"
+   }
+  },
+  "hecho": {
+   "BTC": 13,
+   "ETH": 13
+  },
+  "cortos_abiertos": 2
+ },
+ "ideal": {
+  "usdt": 93.71309068339599,
+  "BTC": 9.559967864162956e-05,
+  "ETH": 0.0,
+  "ajustes": 0,
+  "inicial": true,
+  "cortos": {
+   "BTC": {
+    "cant": 0.00022956911066891167,
+    "entrada": 65330.0,
+    "eid": 13,
+    "fecha": "2026-11-15",
+    "fin": 0.0,
+    "com": 0.015,
+    "ref": 65330.0
+   },
+   "ETH": {
+    "cant": 0.008174607685074137,
+    "entrada": 1834.4,
+    "eid": 13,
+    "fecha": "2026-11-15",
+    "fin": 0.0,
+    "com": 0.01499775,
+    "ref": 1834.4
+   }
+  },
+  "hecho": {
+   "BTC": 13,
+   "ETH": 13
+  },
+  "cortos_abiertos": 2
+ },
+ "problemas": [],
+ "cotizacion_perp": {
+  "hora_utc": "2026-11-16T07:27:18.702225+00:00",
+  "BTC": [
+   64669.0,
+   64669.0
+  ],
+  "ETH": [
+   1816.1,
+   1816.1
+  ]
+ },
+ "ultima_corrida": "2026-11-16 02:27"
+}

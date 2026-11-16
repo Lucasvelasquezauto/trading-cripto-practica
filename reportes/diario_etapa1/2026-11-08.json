@@ -1,0 +1,52 @@
+{
+ "fecha": "2026-11-08",
+ "dia_n": 37,
+ "estado": "Hay algo para revisar",
+ "hora": "2026-11-08 09:47",
+ "tendencia": 89.7867,
+ "mantener": 86.4821,
+ "faltan_dias": 0,
+ "ajustes": 3,
+ "secciones": [
+  [
+   "Qué pasó hoy",
+   [
+    "Tendencia (la estrategia): sin cambios (la diferencia con su objetivo no alcanza el 10%).",
+    "Mantener BTC+ETH (para comparar): sin cambios (la diferencia con su objetivo no alcanza el 10%).",
+    "BTC: $75.867,59 al cierre del 7 nov 2026 (+0,0% en el día), -39,9% bajo su máximo histórico ($126.199,63, 6 oct 2025). Señales al alza: 3 de 8 → la estrategia quiere 18,8% del libro en BTC.",
+    "ETH: $2.240,24 al cierre del 7 nov 2026 (+0,1% en el día), -54,8% bajo su máximo histórico ($4.956,78, 24 ago 2025). Señales al alza: 2 de 8 → la estrategia quiere 12,5% del libro en ETH."
+   ]
+  ],
+  [
+   "Cómo vamos",
+   [
+    "Tendencia (la estrategia): $89,79 (-10,2% desde el inicio, +0,0% desde la revisión anterior). Posición: BTC 19,4% · ETH 12,7% · efectivo 67,9%.",
+    "Mantener BTC+ETH (para comparar): $86,48 (-13,5% desde el inicio, +0,0% desde la revisión anterior). Posición: BTC 50,9% · ETH 48,1% · efectivo 0,9%.",
+    "La estrategia va $3,30 por encima de mantener quieto."
+   ]
+  ],
+  [
+   "¿Va como esperábamos?",
+   [
+    "Diferencia con la simulación (mismas reglas, precios de cierre): -0,71 puntos (aceptable hasta ±1,5). Ajustes: práctica 3, simulación 3.",
+    "En la historia, en periodos de 30 día(s) la estrategia quedó entre -8,3% y +23,7% en 8 de cada 10 casos (mediana -0,5%). Ahora va -10,2%: fuera de lo habitual, sin ser imposible.",
+    "Caída desde su máximo en la práctica: -11,4%. La peor caída de la historia fue -45,4%."
+   ]
+  ],
+  [
+   "¿El bot está funcionando?",
+   [
+    "Última revisión: 2026-11-08 09:47 (hora de Colombia). Al día con el último cierre.",
+    "Revisiones a tiempo: 23 de 29. Días sin revisión: 7.",
+    "Errores en los últimos 7 días: 0.",
+    "Datos: sin problemas."
+   ]
+  ],
+  [
+   "Importante",
+   [
+    "La revisión de hoy se hizo 14.6 h tarde."
+   ]
+  ]
+ ]
+}

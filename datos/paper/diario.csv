@@ -1,0 +1,2 @@
+fecha_cierre,hora,atraso_h,dias_sin_revision,senal_BTC,senal_ETH,cierre_BTC,cierre_ETH,precio_BTC,precio_ETH,opero_tendencia,valor_tendencia,valor_cierre_tendencia,ideal_tendencia,pesos_tendencia,opero_mantener,valor_mantener,valor_cierre_mantener,ideal_mantener,pesos_mantener,problemas
+2026-11-15,2026-11-16 02:27,7.29,0,0.125,0.0,65351.05,1835.35,64686.9,1815.74,1,99.9942,100.0539,99.9906,"{""BTC"": 0.0582, ""ETH"": 0.0}",1,99.9001,100.9496,99.85,"{""BTC"": 0.4981, ""ETH"": 0.4993}",

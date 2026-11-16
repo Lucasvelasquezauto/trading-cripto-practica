@@ -1,0 +1,53 @@
+{
+ "fecha": "2026-11-07",
+ "dia_n": 36,
+ "estado": "Hay algo para revisar",
+ "hora": "2026-11-07 10:09",
+ "tendencia": 89.7694,
+ "mantener": 86.4535,
+ "faltan_dias": 0,
+ "ajustes": 3,
+ "secciones": [
+  [
+   "Qué pasó hoy",
+   [
+    "Tendencia (la estrategia): vendió 0,00013 BTC a $75.889,77 ($9,87); vendió 0,0047 ETH a $2.243,32 ($10,54).",
+    "Mantener BTC+ETH (para comparar): sin cambios (la diferencia con su objetivo no alcanza el 10%).",
+    "BTC: $75.844,00 al cierre del 6 nov 2026 (-0,3% en el día), -39,9% bajo su máximo histórico ($126.199,63, 6 oct 2025). Señales al alza: 3 de 8 → la estrategia quiere 18,8% del libro en BTC.",
+    "ETH: $2.238,67 al cierre del 6 nov 2026 (+0,0% en el día), -54,8% bajo su máximo histórico ($4.956,78, 24 ago 2025). Señales al alza: 2 de 8 → la estrategia quiere 12,5% del libro en ETH."
+   ]
+  ],
+  [
+   "Cómo vamos",
+   [
+    "Tendencia (la estrategia): $89,77 (-10,2% desde el inicio, -1,1% desde la revisión anterior). Posición: BTC 19,4% · ETH 12,7% · efectivo 67,9%.",
+    "Mantener BTC+ETH (para comparar): $86,45 (-13,5% desde el inicio, -1,9% desde la revisión anterior). Posición: BTC 50,9% · ETH 48,2% · efectivo 0,9%.",
+    "La estrategia va $3,32 por encima de mantener quieto."
+   ]
+  ],
+  [
+   "¿Va como esperábamos?",
+   [
+    "Diferencia con la simulación (mismas reglas, precios de cierre): -0,71 puntos (aceptable hasta ±1,5). Ajustes: práctica 3, simulación 3.",
+    "En la historia, en periodos de 29 día(s) la estrategia quedó entre -8,0% y +22,6% en 8 de cada 10 casos (mediana -0,5%). Ahora va -10,2%: fuera de lo habitual, sin ser imposible.",
+    "Caída desde su máximo en la práctica: -11,4%. La peor caída de la historia fue -45,4%."
+   ]
+  ],
+  [
+   "¿El bot está funcionando?",
+   [
+    "Última revisión: 2026-11-07 10:09 (hora de Colombia). Al día con el último cierre.",
+    "Revisiones a tiempo: 23 de 28. Días sin revisión: 7.",
+    "Errores en los últimos 7 días: 0.",
+    "Datos: sin problemas."
+   ]
+  ],
+  [
+   "Importante",
+   [
+    "Hubo 2 día(s) sin revisión antes de hoy (PC apagado o error).",
+    "La revisión de hoy se hizo 15.0 h tarde."
+   ]
+  ]
+ ]
+}

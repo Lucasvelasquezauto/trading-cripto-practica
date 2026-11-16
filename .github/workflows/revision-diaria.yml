@@ -1,0 +1,76 @@
+# Revisión diaria del bot de práctica (sin dinero). Corre a las 00:10 UTC (7:10 pm de Colombia), 10 minutos después
+# del cierre diario, y dos veces más esa misma noche por si GitHub se salta o retrasa una corrida. El bot es repetible:
+# si ya revisó el último cierre y no hay nada nuevo, no cambia ningún archivo y no se hace commit.
+# También se puede correr a mano: pestaña Actions → "Revisión diaria" → Run workflow.
+name: Revisión diaria
+
+on:
+  schedule:
+    - cron: "10 0 * * *"   # 00:10 UTC = 19:10 Colombia
+    - cron: "7 1 * * *"    # revisión de seguridad
+    - cron: "17 2 * * *"   # revisión de seguridad (todavía dentro de las 3 h que cuentan como "a tiempo")
+  workflow_dispatch:
+
+permissions:
+  contents: write   # guardar el estado y el informe en el repositorio
+  pages: write      # publicar el informe en GitHub Pages
+  id-token: write
+
+concurrency:
+  group: revision-diaria
+  cancel-in-progress: false   # nunca dos revisiones a la vez; la siguiente espera a que termine la anterior
+
+jobs:
+  revisar:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    environment:
+      name: github-pages
+      url: ${{ steps.publicar.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Correr el bot
+        id: bot
+        continue-on-error: true   # si falla, igual se guarda y se publica el informe con el aviso de error
+        env:
+          PYTHONIOENCODING: utf-8
+        run: python -m bot correr
+
+      - name: Guardar el estado y el informe en el repositorio
+        run: |
+          git config user.name "bot-practica"
+          git config user.email "bot-practica@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Sin cambios: no hay nada nuevo que guardar."
+          else
+            git commit -q -m "Revisión diaria $(date -u '+%Y-%m-%d %H:%M') UTC"
+            git push
+          fi
+
+      - name: Preparar la página
+        run: |
+          mkdir -p _sitio
+          cp informe.html _sitio/index.html
+          cp informe.html _sitio/informe.html
+
+      - uses: actions/configure-pages@v6
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: _sitio
+
+      - name: Publicar en GitHub Pages
+        id: publicar
+        uses: actions/deploy-pages@v5
+
+      - name: Marcar la revisión como fallida si el bot falló
+        if: steps.bot.outcome == 'failure'
+        run: |
+          echo "::error::El bot terminó con error. El informe publicado muestra el aviso; ver datos/paper/errores.log."
+          exit 1

@@ -1,0 +1,25 @@
+{
+ "hora_utc": "2026-11-16T07:27:18.702225+00:00",
+ "cierre": "2026-11-15",
+ "contado_binance": {
+  "BTC": [
+   64686.89,
+   64686.9
+  ],
+  "ETH": [
+   1815.74,
+   1815.75
+  ]
+ },
+ "perpetuo_hyperliquid": {
+  "BTC": [
+   64669.0,
+   64669.0
+  ],
+  "ETH": [
+   1816.1,
+   1816.1
+  ]
+ },
+ "nota": "Los tres libros arrancan con $100 en este momento (el mismo en que arrancó el libro adaptativa en la etapa 1). Contado: compra/venta de Binance en ese momento, confirmadas con sus operaciones públicas. Perpetuo: apertura de la vela de 1 minuto de Hyperliquid de las 07:27 UTC."
+}

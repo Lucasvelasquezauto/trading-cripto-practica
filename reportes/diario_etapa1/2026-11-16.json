@@ -1,0 +1,59 @@
+{
+ "fecha": "2026-11-16",
+ "dia_n": 45,
+ "estado": "Todo en orden",
+ "hora": "2026-11-16 02:27",
+ "tendencia": 86.1323,
+ "mantener": 72.6435,
+ "faltan_dias": 0,
+ "ajustes": 5,
+ "secciones": [
+  [
+   "Qué pasó hoy",
+   [
+    "Tendencia (la estrategia): sin cambios (la diferencia con su objetivo no alcanza el 10%).",
+    "Mantener BTC+ETH (para comparar): sin cambios (la diferencia con su objetivo no alcanza el 10%).",
+    "BTC: $65.351,05 al cierre del 15 nov 2026 (+1,9% en el día), -48,2% bajo su máximo histórico ($126.199,63, 6 oct 2025). Señales al alza: 1 de 8 → la estrategia quiere 6,2% del libro en BTC.",
+    "ETH: $1.835,35 al cierre del 15 nov 2026 (+3,7% en el día), -63,0% bajo su máximo histórico ($4.956,78, 24 ago 2025). Señales al alza: 0 de 8 → la estrategia quiere 0,0% del libro en ETH.",
+    "Adaptativa: abrió apuesta a la baja de 0,00023 BTC a $64.652,30 ($14,87); abrió apuesta a la baja de 0,0082 ETH a $1.815,00 ($14,88); compró 0,00009 BTC a $64.686,90 ($5,82)."
+   ]
+  ],
+  [
+   "Cómo vamos",
+   [
+    "Tendencia (la estrategia): $86,13 (-13,9% desde el inicio, -0,0% desde la revisión anterior). Posición: BTC 6,0% · ETH 0,2% · efectivo 93,8%.",
+    "Mantener BTC+ETH (para comparar): $72,64 (-27,4% desde el inicio, -0,2% desde la revisión anterior). Posición: BTC 52,0% · ETH 46,9% · efectivo 1,1%.",
+    "La estrategia va $13,49 por encima de mantener quieto.",
+    "Adaptativa (alza + baja, desde el 15 nov 2026): $99,98 (-0,0% desde su inicio, +0,0% desde la revisión anterior). Compras: BTC 5,8% · ETH 0,0% · apuestas a la baja: BTC 14,9%, ETH 14,9%.",
+    "Adaptativa · apuesta a la baja en BTC abierta: 0,00023 BTC (≈ $14,87, 14,9% del libro), desde el 15 nov 2026 a $64.652,30. Resultado hasta hoy −$0,01 (financiación cobrada $0,00; comisiones $0,01). Se cierra si BTC cierra sobre el máximo de sus 10 cierres anteriores, vuelve a 3 de 8 señales o cierra sobre $70.960,96.",
+    "Adaptativa · apuesta a la baja en ETH abierta: 0,0082 ETH (≈ $14,88, 14,9% del libro), desde el 15 nov 2026 a $1.815,00. Resultado hasta hoy −$0,01 (financiación cobrada $0,00; comisiones $0,01). Se cierra si ETH cierra sobre el máximo de sus 10 cierres anteriores, vuelve a 3 de 8 señales o cierra sobre $2.040,42.",
+    "Adaptativa · Prueba histórica: versión 3A (fijada antes de mirar datos) · no pasó (cumplió 2 de 5 condiciones). Se practica para compararla con la tendencia, no para pasar a dinero real."
+   ]
+  ],
+  [
+   "¿Va como esperábamos?",
+   [
+    "Diferencia con la simulación (mismas reglas, precios de cierre): -1,04 puntos (aceptable hasta ±1,5). Ajustes: práctica 5, simulación 5.",
+    "En la historia, en periodos de 36 día(s) la estrategia quedó entre -9,1% y +27,5% en 8 de cada 10 casos (mediana -0,7%). Ahora va -13,9%: fuera de lo habitual, sin ser imposible.",
+    "Caída desde su máximo en la práctica: -15,0%. La peor caída de la historia fue -45,4%.",
+    "Adaptativa: diferencia con su simulación (mismas reglas, precios de cierre): -0,23 puntos (solo informativo: este libro no cuenta para la fecha del dinero real)."
+   ]
+  ],
+  [
+   "¿El bot está funcionando?",
+   [
+    "Última revisión: 2026-11-16 02:27 (hora de Colombia). Al día con el último cierre.",
+    "Revisiones a tiempo: 28 de 35. Días sin revisión: 9.",
+    "Errores en los últimos 7 días: 0.",
+    "Datos: sin problemas."
+   ]
+  ],
+  [
+   "Importante",
+   [
+    "Nada fuera de lo normal hoy."
+   ]
+  ]
+ ],
+ "adaptativa": 99.9792
+}

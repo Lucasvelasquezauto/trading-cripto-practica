@@ -1,0 +1,4 @@
+hora,fecha_cierre,libro,activo,lado,cantidad,precio,monto,comision,nota
+2026-11-16 02:27,2026-11-15,adaptativa,BTC,abre corto,0.00023,64652.3,14.870029,0.00743501,la regla abrió con el cierre del 2026-11-12; se abre hoy
+2026-11-16 02:27,2026-11-15,adaptativa,ETH,abre corto,0.0082,1815.0,14.883,0.0074415,la regla abrió con el cierre del 2026-11-12; se abre hoy
+2026-11-16 02:27,2026-11-15,adaptativa,BTC,compra,9e-05,64686.9,5.821821,0.00582182,

@@ -1,0 +1,4 @@
+hora,fecha_cierre,libro,activo,lado,cantidad,precio,monto,comision,nota
+2026-11-16 02:27,2026-11-15,tendencia,BTC,compra,9e-05,64686.9,5.821821,0.00582182,
+2026-11-16 02:27,2026-11-15,mantener,BTC,compra,0.00077,64686.9,49.808913,0.04980891,
+2026-11-16 02:27,2026-11-15,mantener,ETH,compra,0.0275,1815.75,49.933125,0.04993312,

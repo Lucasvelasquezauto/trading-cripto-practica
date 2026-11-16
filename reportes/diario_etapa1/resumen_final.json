@@ -1,0 +1,226 @@
+{
+ "titulo": "Etapa 1 · lo que hicimos del 3 de octubre al 15 de noviembre de 2026",
+ "nota": "Historia cerrada: estos son los números finales de la etapa 1 tal como los mostró el informe del 16 nov 2026 (02:27, hora de Colombia). Estos libros ya no se actualizan. En esa etapa el libro adaptativa usaba los precios del perpetuo de Binance; en la etapa 2 usa los de Hyperliquid.",
+ "cabecera": "Trading cripto · bitcoin y ether · desde el 3 oct 2026 · última revisión 2026-11-16 02:27 (hora de Colombia)",
+ "generado": "2026-11-16T02:27-05:00",
+ "fuente": "informe.html escrito por el bot el 16 nov 2026 a las 02:27 (hora de Colombia)",
+ "resumen_html": "<div class='estado bien'><span class='ic ok' aria-hidden='true'>✓</span><div><b>Todo en orden</b><p>El bot revisó a tiempo, los datos están completos y la práctica se parece a la simulación.</p></div></div>\n<div class=\"tiles\"><div class='tile'><span class='t-et'>Tendencia (la estrategia)</span><b>$86,13</b><span class='t-sub'>-13,9% desde el inicio</span></div><div class='tile'><span class='t-et'>Mantener BTC+ETH</span><b>$72,64</b><span class='t-sub'>-27,4% desde el inicio</span></div><div class='tile'><span class='t-et'>Adaptativa (alza + baja)</span><b>$99,98</b><span class='t-sub'>-0,0% desde el 15 nov 2026</span></div><div class='tile'><span class='t-et'>Faltan para la fecha mínima</span><b>0 días</b><span class='t-sub'>31 oct 2026</span></div><div class='tile'><span class='t-et'>Ajustes de la estrategia</span><b>5 de 5</b><span class='t-sub'>se necesitan 5</span></div></div>\n<section class=\"tarjeta\"><h2>Cuenta regresiva para el dinero real</h2><p class='clave'>Fecha más temprana para dinero real: <b>31 oct 2026</b> (faltan 0 días). Si los ajustes llegan al ritmo normal, la fecha estimada es el 31 oct 2026; el tope de la práctica es el 28 nov 2026.</p><div class='med'><div class='med-top'><span>Días de práctica</span><b>28 de 28</b></div><div class='pista' role='progressbar' aria-label='Días de práctica' aria-valuemin='0' aria-valuemax='28' aria-valuenow='28'><div class='relleno' style='width:100.0%'></div></div></div><div class='med'><div class='med-top'><span>Ajustes de la estrategia</span><b>5 de 5</b></div><div class='pista' role='progressbar' aria-label='Ajustes de la estrategia' aria-valuemin='0' aria-valuemax='5' aria-valuenow='5'><div class='relleno' style='width:100.0%'></div></div></div>\n<ul style=\"margin-top:14px\"><li class='chk'><span class='ic ok' aria-hidden='true'>✓</span><span>Mínimo 4 semanas de práctica: van 45 de 28 días.</span></li><li class='chk'><span class='ic ok' aria-hidden='true'>✓</span><span>Al menos 5 ajustes de la estrategia (o llegar al tope del 28 nov 2026): van 5.</span></li><li class='chk'><span class='ic ok' aria-hidden='true'>✓</span><span>La práctica se parece a la simulación: diferencia de 1,04 puntos (máximo 1,5).</span></li><li class='chk'><span class='ic no' aria-hidden='true'>✗</span><span>Revisiones a tiempo: 28 de 35 (mínimo 90%).</span></li><li class='chk'><span class='ic ok' aria-hidden='true'>✓</span><span>Sin errores en los últimos 7 días: 0 errores.</span></li></ul></section>\n<section class=\"tarjeta\"><h2>Cómo van los libros (valor en dólares)</h2>\n<div class=\"leyenda\"><span><i style=\"background:var(--s1)\"></i>Tendencia (la estrategia)</span>\n<span><i style=\"background:var(--s2)\"></i>Mantener BTC+ETH</span>\n<span><i style=\"background:var(--s3)\"></i>Adaptativa (alza + baja)</span>\n<span><i style=\"background:var(--eje)\"></i>$100 iniciales</span></div>\n<div id=\"grafica-e1\"></div>\n<details class=\"tabla\"><summary>Ver los datos</summary><table><thead><tr><th>Día</th><th>Tendencia</th><th>Mantener</th><th>Adaptativa</th></tr></thead>\n<tbody><tr><td>15 nov 2026</td><td>$86,13</td><td>$72,64</td><td>$99,98</td></tr><tr><td>15 nov 2026</td><td>$86,15</td><td>$72,76</td><td>—</td></tr><tr><td>13 nov 2026</td><td>$86,92</td><td>$76,40</td><td>—</td></tr><tr><td>12 nov 2026</td><td>$87,57</td><td>$79,62</td><td>—</td></tr><tr><td>10 nov 2026</td><td>$88,30</td><td>$81,64</td><td>—</td></tr><tr><td>9 nov 2026</td><td>$89,11</td><td>$84,17</td><td>—</td></tr><tr><td>8 nov 2026</td><td>$89,79</td><td>$86,48</td><td>—</td></tr><tr><td>7 nov 2026</td><td>$89,77</td><td>$86,45</td><td>—</td></tr><tr><td>3 nov 2026</td><td>$90,74</td><td>$88,09</td><td>—</td></tr><tr><td>2 nov 2026</td><td>$90,15</td><td>$87,06</td><td>—</td></tr><tr><td>1 nov 2026</td><td>$90,96</td><td>$88,43</td><td>—</td></tr><tr><td>31 oct 2026</td><td>$90,52</td><td>$87,66</td><td>—</td></tr><tr><td>31 oct 2026</td><td>$90,39</td><td>$87,44</td><td>—</td></tr><tr><td>29 oct 2026</td><td>$90,52</td><td>$87,64</td><td>—</td></tr><tr><td>29 oct 2026</td><td>$92,06</td><td>$90,33</td><td>—</td></tr><tr><td>27 oct 2026</td><td>$92,55</td><td>$91,19</td><td>—</td></tr><tr><td>27 oct 2026</td><td>$92,26</td><td>$90,69</td><td>—</td></tr><tr><td>25 oct 2026</td><td>$92,21</td><td>$90,61</td><td>—</td></tr><tr><td>25 oct 2026</td><td>$92,24</td><td>$90,66</td><td>—</td></tr><tr><td>22 oct 2026</td><td>$93,13</td><td>$92,24</td><td>—</td></tr><tr><td>21 oct 2026</td><td>$95,83</td><td>$95,75</td><td>—</td></tr><tr><td>20 oct 2026</td><td>$94,78</td><td>$94,39</td><td>—</td></tr><tr><td>19 oct 2026</td><td>$93,61</td><td>$92,85</td><td>—</td></tr><tr><td>18 oct 2026</td><td>$93,94</td><td>$93,27</td><td>—</td></tr><tr><td>16 oct 2026</td><td>$93,74</td><td>$93,08</td><td>—</td></tr><tr><td>15 oct 2026</td><td>$94,39</td><td>$93,94</td><td>—</td></tr><tr><td>14 oct 2026</td><td>$93,83</td><td>$93,20</td><td>—</td></tr><tr><td>13 oct 2026</td><td>$95,64</td><td>$95,65</td><td>—</td></tr><tr><td>12 oct 2026</td><td>$93,82</td><td>$93,21</td><td>—</td></tr><tr><td>8 oct 2026</td><td>$94,60</td><td>$94,08</td><td>—</td></tr><tr><td>7 oct 2026</td><td>$97,10</td><td>$96,82</td><td>—</td></tr><tr><td>6 oct 2026</td><td>$98,08</td><td>$97,89</td><td>—</td></tr><tr><td>5 oct 2026</td><td>$100,96</td><td>$101,02</td><td>—</td></tr><tr><td>4 oct 2026</td><td>$101,38</td><td>$101,46</td><td>—</td></tr><tr><td>3 oct 2026</td><td>$99,88</td><td>$99,87</td><td>—</td></tr><tr><td>3 oct 2026</td><td>$99,91</td><td>$99,90</td><td>—</td></tr></tbody></table></details></section>\n<section class='tarjeta'><h2>Tercer libro: Adaptativa (alza + baja)</h2><p class='etiqueta'>Prueba histórica: versión 3A (fijada antes de mirar datos) · no pasó (cumplió 2 de 5 condiciones). Se practica para compararla con la tendencia, no para pasar a dinero real.</p><ul><li>Adaptativa (alza + baja, desde el 15 nov 2026): $99,98 (-0,0% desde su inicio, +0,0% desde la revisión anterior). Compras: BTC 5,8% · ETH 0,0% · apuestas a la baja: BTC 14,9%, ETH 14,9%.</li><li>apuesta a la baja en BTC abierta: 0,00023 BTC (≈ $14,87, 14,9% del libro), desde el 15 nov 2026 a $64.652,30. Resultado hasta hoy −$0,01 (financiación cobrada $0,00; comisiones $0,01). Se cierra si BTC cierra sobre el máximo de sus 10 cierres anteriores, vuelve a 3 de 8 señales o cierra sobre $70.960,96.</li><li>apuesta a la baja en ETH abierta: 0,0082 ETH (≈ $14,88, 14,9% del libro), desde el 15 nov 2026 a $1.815,00. Resultado hasta hoy −$0,01 (financiación cobrada $0,00; comisiones $0,01). Se cierra si ETH cierra sobre el máximo de sus 10 cierres anteriores, vuelve a 3 de 8 señales o cierra sobre $2.040,42.</li><li>diferencia con su simulación (mismas reglas, precios de cierre): -0,23 puntos (solo informativo: este libro no cuenta para la fecha del dinero real).</li></ul></section>",
+ "datos": [
+  {
+   "f": "2026-10-03",
+   "t": 99.9072,
+   "m": 99.9007,
+   "a": null
+  },
+  {
+   "f": "2026-10-03",
+   "t": 99.8765,
+   "m": 99.8704,
+   "a": null
+  },
+  {
+   "f": "2026-10-04",
+   "t": 101.377,
+   "m": 101.4571,
+   "a": null
+  },
+  {
+   "f": "2026-10-05",
+   "t": 100.9579,
+   "m": 101.0185,
+   "a": null
+  },
+  {
+   "f": "2026-10-06",
+   "t": 98.0796,
+   "m": 97.8894,
+   "a": null
+  },
+  {
+   "f": "2026-10-07",
+   "t": 97.1018,
+   "m": 96.8197,
+   "a": null
+  },
+  {
+   "f": "2026-10-08",
+   "t": 94.5961,
+   "m": 94.0767,
+   "a": null
+  },
+  {
+   "f": "2026-10-12",
+   "t": 93.8177,
+   "m": 93.2121,
+   "a": null
+  },
+  {
+   "f": "2026-10-13",
+   "t": 95.6393,
+   "m": 95.6498,
+   "a": null
+  },
+  {
+   "f": "2026-10-14",
+   "t": 93.8325,
+   "m": 93.1966,
+   "a": null
+  },
+  {
+   "f": "2026-10-15",
+   "t": 94.3928,
+   "m": 93.9367,
+   "a": null
+  },
+  {
+   "f": "2026-10-16",
+   "t": 93.7389,
+   "m": 93.0801,
+   "a": null
+  },
+  {
+   "f": "2026-10-18",
+   "t": 93.9442,
+   "m": 93.2737,
+   "a": null
+  },
+  {
+   "f": "2026-10-19",
+   "t": 93.6136,
+   "m": 92.8458,
+   "a": null
+  },
+  {
+   "f": "2026-10-20",
+   "t": 94.7775,
+   "m": 94.3907,
+   "a": null
+  },
+  {
+   "f": "2026-10-21",
+   "t": 95.8315,
+   "m": 95.7464,
+   "a": null
+  },
+  {
+   "f": "2026-10-22",
+   "t": 93.1297,
+   "m": 92.2448,
+   "a": null
+  },
+  {
+   "f": "2026-10-25",
+   "t": 92.2433,
+   "m": 90.6561,
+   "a": null
+  },
+  {
+   "f": "2026-10-25",
+   "t": 92.2088,
+   "m": 90.6064,
+   "a": null
+  },
+  {
+   "f": "2026-10-27",
+   "t": 92.2633,
+   "m": 90.6942,
+   "a": null
+  },
+  {
+   "f": "2026-10-27",
+   "t": 92.5486,
+   "m": 91.19,
+   "a": null
+  },
+  {
+   "f": "2026-10-29",
+   "t": 92.0569,
+   "m": 90.3304,
+   "a": null
+  },
+  {
+   "f": "2026-10-29",
+   "t": 90.5227,
+   "m": 87.6375,
+   "a": null
+  },
+  {
+   "f": "2026-10-31",
+   "t": 90.3926,
+   "m": 87.4374,
+   "a": null
+  },
+  {
+   "f": "2026-10-31",
+   "t": 90.5174,
+   "m": 87.6639,
+   "a": null
+  },
+  {
+   "f": "2026-11-01",
+   "t": 90.9593,
+   "m": 88.4278,
+   "a": null
+  },
+  {
+   "f": "2026-11-02",
+   "t": 90.1526,
+   "m": 87.0572,
+   "a": null
+  },
+  {
+   "f": "2026-11-03",
+   "t": 90.7416,
+   "m": 88.0915,
+   "a": null
+  },
+  {
+   "f": "2026-11-07",
+   "t": 89.7694,
+   "m": 86.4535,
+   "a": null
+  },
+  {
+   "f": "2026-11-08",
+   "t": 89.7867,
+   "m": 86.4821,
+   "a": null
+  },
+  {
+   "f": "2026-11-09",
+   "t": 89.109,
+   "m": 84.1655,
+   "a": null
+  },
+  {
+   "f": "2026-11-10",
+   "t": 88.2997,
+   "m": 81.6429,
+   "a": null
+  },
+  {
+   "f": "2026-11-12",
+   "t": 87.5683,
+   "m": 79.6212,
+   "a": null
+  },
+  {
+   "f": "2026-11-13",
+   "t": 86.9179,
+   "m": 76.3957,
+   "a": null
+  },
+  {
+   "f": "2026-11-15",
+   "t": 86.1496,
+   "m": 72.7633,
+   "a": null
+  },
+  {
+   "f": "2026-11-15",
+   "t": 86.1323,
+   "m": 72.6435,
+   "a": 99.9792
+  }
+ ]
+}

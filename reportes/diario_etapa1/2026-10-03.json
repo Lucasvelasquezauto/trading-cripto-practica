@@ -1,0 +1,52 @@
+{
+ "fecha": "2026-10-03",
+ "dia_n": 1,
+ "estado": "Todo en orden",
+ "hora": "2026-10-03 19:10",
+ "tendencia": 99.8765,
+ "mantener": 99.8704,
+ "faltan_dias": 28,
+ "ajustes": 0,
+ "secciones": [
+  [
+   "Qué pasó hoy",
+   [
+    "Tendencia (la estrategia): sin cambios (la diferencia con su objetivo no alcanza el 10%).",
+    "Mantener BTC+ETH (para comparar): sin cambios (la diferencia con su objetivo no alcanza el 10%).",
+    "BTC: $84.753,56 al cierre del 3 oct 2026 (+0,3% en el día), -32,8% bajo su máximo histórico ($126.199,63, 6 oct 2025). Señales al alza: 8 de 8 → la estrategia quiere 50,0% del libro en BTC.",
+    "ETH: $2.687,23 al cierre del 3 oct 2026 (+0,7% en el día), -45,8% bajo su máximo histórico ($4.956,78, 24 ago 2025). Señales al alza: 7 de 8 → la estrategia quiere 43,8% del libro en ETH."
+   ]
+  ],
+  [
+   "Cómo vamos",
+   [
+    "Tendencia (la estrategia): $99,88 (-0,1% desde el inicio, -0,0% desde la revisión anterior). Posición: BTC 49,2% · ETH 43,5% · efectivo 7,3%.",
+    "Mantener BTC+ETH (para comparar): $99,87 (-0,1% desde el inicio, -0,0% desde la revisión anterior). Posición: BTC 49,2% · ETH 50,0% · efectivo 0,8%.",
+    "La estrategia va $0,01 por encima de mantener quieto."
+   ]
+  ],
+  [
+   "¿Va como esperábamos?",
+   [
+    "Diferencia con la simulación (mismas reglas, precios de cierre): -0,46 puntos (aceptable hasta ±1,5). Ajustes: práctica 0, simulación 0.",
+    "En la historia, en periodos de 2 día(s) la estrategia quedó entre -2,3% y +3,4% en 8 de cada 10 casos (mediana +0,0%). Ahora va -0,1%: dentro de lo normal.",
+    "Caída desde su máximo en la práctica: -0,0%. La peor caída de la historia fue -45,4%."
+   ]
+  ],
+  [
+   "¿El bot está funcionando?",
+   [
+    "Última revisión: 2026-10-03 19:10 (hora de Colombia). Al día con el último cierre.",
+    "Revisiones a tiempo: 1 de 1. Días sin revisión: 0.",
+    "Errores en los últimos 7 días: 0.",
+    "Datos: sin problemas."
+   ]
+  ],
+  [
+   "Importante",
+   [
+    "Nada fuera de lo normal hoy."
+   ]
+  ]
+ ]
+}

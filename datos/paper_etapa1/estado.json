@@ -1,0 +1,41 @@
+{
+ "inicio": "2026-10-03",
+ "creado": "2026-10-03T20:39:15.890018+00:00",
+ "primer_dia": "2026-10-02",
+ "ultimo_ideal": "2026-11-15",
+ "ultimo_paper": "2026-11-15",
+ "libros": {
+  "tendencia": {
+   "usdt": 80.797264609,
+   "BTC": 7.941999999999997e-05,
+   "ETH": 8.379999999999846e-05,
+   "ajustes": 5,
+   "inicial": true
+  },
+  "mantener": {
+   "usdt": 0.7973541999999938,
+   "BTC": 0.00057942,
+   "ETH": 0.0185814,
+   "ajustes": 0,
+   "inicial": true
+  }
+ },
+ "ideal": {
+  "tendencia": {
+   "usdt": 81.63395894445323,
+   "BTC": 8.483653826391606e-05,
+   "ETH": 0.0,
+   "ajustes": 5,
+   "inicial": true
+  },
+  "mantener": {
+   "usdt": 0.0,
+   "BTC": 0.0005907025023424001,
+   "ETH": 0.018708381579785577,
+   "ajustes": 0,
+   "inicial": true
+  }
+ },
+ "ultima_corrida": "2026-11-16 02:27",
+ "problemas": []
+}
