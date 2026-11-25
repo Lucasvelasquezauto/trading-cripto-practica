@@ -26,7 +26,7 @@ jobs:
     timeout-minutes: 20
     environment:
       name: github-pages
-      url: ${{ steps.publicar.outputs.page_url }}
+      url: ${{ steps.publicar2.outputs.page_url || steps.publicar.outputs.page_url }}
     steps:
       - uses: actions/checkout@v7
 
@@ -65,8 +65,20 @@ jobs:
         with:
           path: _sitio
 
+      # GitHub a veces tarda en "ver" el archivo recién subido y la publicación falla sin motivo real
+      # ("No artifacts named github-pages were found"). Se reintenta una vez, tras una pausa, antes de dar la falla.
       - name: Publicar en GitHub Pages
         id: publicar
+        continue-on-error: true
+        uses: actions/deploy-pages@v5
+
+      - name: Esperar antes de reintentar la publicación
+        if: steps.publicar.outcome == 'failure'
+        run: sleep 60
+
+      - name: Reintentar la publicación en GitHub Pages
+        id: publicar2
+        if: steps.publicar.outcome == 'failure'
         uses: actions/deploy-pages@v5
 
       - name: Marcar la revisión como fallida si el bot falló
