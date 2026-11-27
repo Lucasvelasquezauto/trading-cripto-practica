@@ -1,0 +1,25 @@
+# PRUEBA TEMPORAL (27 nov 2026): mide cuánto retrasa GitHub las corridas programadas según la hora pedida.
+# No toca el bot, el informe ni ningún archivo. El nombre de cada corrida lleva la hora pedida (cron);
+# la hora real es la de creación de la corrida. Se borra al terminar la medición.
+name: Medir retraso
+run-name: "Medir ${{ github.event.schedule || 'manual' }}"
+
+on:
+  schedule:
+    - cron: "19 4 * * *"
+    - cron: "7 12 * * *"
+    - cron: "23 16 * * *"
+    - cron: "41 18 * * *"
+    - cron: "13 20 * * *"
+    - cron: "37 22 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  medir:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 2
+    steps:
+      - run: echo "Pedida=${{ github.event.schedule }} Real=$(date -u '+%Y-%m-%d %H:%M:%S') UTC"
